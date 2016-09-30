@@ -1,11 +1,14 @@
 # Simple 3D car comparison tool
 
+![3D Car comparison of length, height, width and ground clearance](http://i.imgur.com/JJfbppk.png)
+
 I wanted a simple tool so that I could visually see how much bigger the compact SUVs were in comparison to my previous little hatchback.
 
-- Compares two cars; Car base(red) and Car compare(green)
-- Hooked up to a CSV of car dimension; see table below
-- Call in the two cars with the function getCar("id");
-- Use the UP, DOWN, LEFT, RIGHT arrow keys, to rotate 360 degrees.
+- Compares two Cars; Car base(red) and Car compare(green)
+- Data is coming from a CSV of car dimensions; see table below
+- Call in the 2 x Car with the function getCar("id");
+- Use the UP, DOWN, LEFT, RIGHT arrow keys to rotate 360 degrees.
+
 
 | Column        | Use           |
 | ------------- | ------------- |
@@ -18,4 +21,3 @@ I wanted a simple tool so that I could visually see how much bigger the compact 
 | width | Width of car, how wide is it when you're going through a narrow st? |
 | groundClearance | Can I get to my camping spot? |
 
-![3D Car comparison of length, height, width and ground clearance](http://i.imgur.com/JJfbppk.png)
