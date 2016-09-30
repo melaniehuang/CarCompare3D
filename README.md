@@ -2,9 +2,10 @@
 
 I wanted a simple tool so that I could visually see how much bigger the compact SUVs were in comparison to my previous little hatchback.
 
-Use the UP, DOWN, LEFT, RIGHT arrow keys, to rotate 360 degrees.
-
-Using a CSV of car dimensions: 
+- Compares two cars; Car base(red) and Car compare(green)
+- Hooked up to a CSV of car dimension; see table below
+- Call in the two cars with the function getCar("id");
+- Use the UP, DOWN, LEFT, RIGHT arrow keys, to rotate 360 degrees.
 
 | Column        | Use           |
 | ------------- | ------------- |
@@ -18,5 +19,3 @@ Using a CSV of car dimensions:
 | groundClearance | Can I get to my camping spot? |
 
 ![3D Car comparison of length, height, width and ground clearance](http://i.imgur.com/JJfbppk.png)
-
-Measurements is mm are scaled to 1/5 of the size to fit into the pixels of the canvas. Car 'base' is represented in red, this is giving me a base size of a car I'm used to driving. ie. "Swift09". Car 'compare' is the car I want to compare it to in size and ground clearance. ie. "Vitara16".
